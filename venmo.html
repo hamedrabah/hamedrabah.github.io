@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Improving The Venmo User Experience</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Hamed Rabah</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<div class="aa-wrapper">
+								<h1 class="aa-heading">Improving The Venmo User Experience</h1>
+								<h2 class="subhead">Discovery</h2>
+								<p class="quote">Interviewing users about their experience using Venmo <br/>and discovering pain points</p>
+								<p class="aa-para">During my discovery phase three things stood out after interviewing users on their Venmo experiences: <u>group dynamics, accidental payments, and privacy.</u> Specific feedback include: </p>
+								<ul>
+									<li>Wanting a more efficient way to deal with group charges - such as splitting a tab between multiple people</li>
+									<li>Accidentally sending money to someone</li>
+									<li>Similarly, sending a payment and wanting to cancel the payment</li>
+									<li>Wanting to view if someone saw a request for money </li>
+									<li>Using the public transactions to identify who is hanging out</li>
+									<li>Wanting bank transfers to deposit quicker</li>
+								</ul>
+								<p class="aa-para">After going through the feedback, I thought the most immediate problem to tackle would be addressing the issue of accidental payments. The problem isn't that users are sending money accidentally, the problem is that Venmo is not doing a good enough job <u><strong>confirming intention</strong></u> to send money. </p>
+								<h2 class="subhead">User Flow</h2>
+								<p class="aa-para">The first step was drawing out the existing flow of how money is sent from user A to user B. The problems that stood out to me was that once the user presses the green pay button they nearly immediately send money, without a second opportunity to change their mind. (technically there is a short window to cancel the payment - as shown in the last view - however this cancelation button does not respond nearly in time to reliably give users a second chance to change their mind). The interaction looks something like this: </p>
+								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_c0e41757f86a4a98a1bf3e7cf63aaefa~mv2_d_1535_1253_s_2.png/v1/fill/w_740,h_604,al_c,usm_0.66_1.00_0.01/f0a7d3_c0e41757f86a4a98a1bf3e7cf63aaefa~mv2_d_1535_1253_s_2.png"/>
+								<p class="aa-para">In particular, in the last view the cancel button is hidden in the top left corner, the payment processes very quickly  (~3 seconds), and there is a lot of unused white space, which given the previous screens' use of such space, can be a distraction to a user trying to find a cancel button in a time sensitive environment. As indicated by the interview process, this turned out to be a huge point of <strong>frustration</strong> for Venmo users.</p>
+								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_5685d799cdf54f358a26c3da0526b279~mv2.png/v1/fill/w_740,h_526,al_c,usm_0.66_1.00_0.01/f0a7d3_5685d799cdf54f358a26c3da0526b279~mv2.png">
+								<h2 class="subhead">Develop</h2>
+								<p class="aa-para">Iterating several solutions</p>
+								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_e313d8c3bad34ba9a1254571b0732435~mv2.png/v1/fill/w_740,h_407,al_c,usm_0.66_1.00_0.01/f0a7d3_e313d8c3bad34ba9a1254571b0732435~mv2.png">
+								<p style="text-align: center;" class="aa-para">Above: The current Venmo method of dealing with payment cancelations. </p>
+								<div class="aa-sectioning">
+									<img src="https://static.wixstatic.com/media/f0a7d3_e0d518c69333480cbd53981fbeeb37f8~mv2.png/v1/fill/w_350,h_191,al_c,usm_0.66_1.00_0.01/f0a7d3_e0d518c69333480cbd53981fbeeb37f8~mv2.png">
+									<p class="aa-para">The first idea I had was to expand on the green button to pay, so that when user taps the button as the payment is processing the user has the option to cancel the payment.</p>
+									<img src="https://static.wixstatic.com/media/f0a7d3_4b09e79e7a9f4d29987db1d317aead51~mv2.png/v1/fill/w_350,h_230,al_c,usm_0.66_1.00_0.01/f0a7d3_4b09e79e7a9f4d29987db1d317aead51~mv2.png">
+									<p class="aa-para">The second idea was to replace the tap to pay button with a slide to pay button. With the tap to pay button it was not obvious that tapping pay immediately pays the recipient. Sliding provides a greater sense of permanence in the transaction. </p>
+									<img src="https://static.wixstatic.com/media/f0a7d3_70f801cceecf4363ab4964ce92ca327e~mv2_d_1513_1619_s_2.png/v1/fill/w_350,h_375,al_c,usm_0.66_1.00_0.01/f0a7d3_70f801cceecf4363ab4964ce92ca327e~mv2_d_1513_1619_s_2.png">
+									<p class="aa-para">The third idea was to use the smartphone's onboard sensors to verify payment. Phones with a fingerprint sensor would require the user scan their fingerprint to confirm the payment, while newer iPhones would require tapping the side button to activate face id. The advantage of this solution is it is the most secure and also conveys a sense of permanence in triggering the transaction. </p>
+									<img src="https://static.wixstatic.com/media/f0a7d3_085e69317c554b8ebe37d21dd95ae8d2~mv2.png/v1/fill/w_350,h_280,al_c,usm_0.66_1.00_0.01/f0a7d3_085e69317c554b8ebe37d21dd95ae8d2~mv2.png">
+									<p class="aa-para">My final idea was inspired by solutions for Email that delay the message being sent by a specified amount of time. This solution would have the user tap to pay as normally, but then would be presented with an view saying that the payment will confirm in 60 seconds, where they can either swipe to sent money immediately or cancel the transaction.  </p>
+								</div>
+								<h2 class="subhead">Deliver</h2>
+								<p class="aa-para">After going through the pros and cons of each ideation I decided to implement idea 2, figuring it would keep thing simple enough in terms of user demands (not having to go through too many menus/settings), while still maintaining security and verifying user intention.</p>
+								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_bb3b05f850dc4fd4b174fa71e9036a01~mv2.png/v1/fill/w_740,h_406,al_c,usm_0.66_1.00_0.01/f0a7d3_bb3b05f850dc4fd4b174fa71e9036a01~mv2.png">
+							</div>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

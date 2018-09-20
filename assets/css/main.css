@@ -3307,3 +3307,111 @@ input, select, textarea {
 			}
 
 		}
+/* styling posts from old blog */
+.aa-wrapper{
+	padding: 50px;
+}
+.quote{
+	font-size: 1.8em;
+	border-left: 5px solid;
+	margin: 25px auto;
+	padding-left: 10px;
+	transition: border .5s;
+}
+.quote:hover{
+	border-color: black
+}
+.aa-heading{
+	font-size: 3em;
+}
+.subhead{
+	font-size: 2em;
+	width: auto;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	border-bottom: 1px solid;
+}
+.aa-img{
+	display: block;
+	max-width: 80%;
+	margin: 10px auto;
+	box-shadow: 0 0 10px black;
+}
+.aa-para{
+	font-size: 1.1em;
+}
+.aa-sectioning{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px;
+}
+.aa-sectioning > *{
+	flex-basis: 50%;
+	margin: 10px;
+
+}
+.aa-sectioning > img{
+	max-width: 45%;
+	box-shadow: 0 0 10px black;
+}
+.aa-sectioning2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.aa-sectioning2 > *{
+	display: block;
+	max-width:30%;
+	margin-top: 20px;
+	max-height: 500px;
+}
+.aa-sectioning3{
+	display: flex;
+	justify-content: space-between;
+}
+.aa-sectioning3 > *{
+	max-width:15%;
+	max-height: 100px;
+	cursor: pointer;
+}
+.aa-sectioning3 > *:active{
+	outline: 1px solid gray;
+}
+.aa-slider{
+	border: 5px solid black;
+	margin: 60px auto;
+}
+
+@media (max-width: 600px){
+.aa-sectioning > img{
+	display: block;
+	max-width: 100%;
+	margin: 10px auto;
+}
+.aa-sectioning > *{
+	flex-basis: 100%;
+	margin: 10px;
+
+}
+.aa-sectioning3{
+	flex-wrap: wrap;
+}
+.aa-sectioning3 > *{
+	max-width:30%;
+	max-height: 100px;
+	margin-top: 10px;
+}
+.aa-sectioning2 > *{
+	display: block;
+	max-width:100%;
+	padding-top: 20px;
+}
+}
+@keyframes quoteAnimate{
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 100%;
+	}
+}
