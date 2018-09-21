@@ -66,26 +66,26 @@
 								<p class="aa-para">After going through the feedback, I thought the most immediate problem to tackle would be addressing the issue of accidental payments. The problem isn't that users are sending money accidentally, the problem is that Venmo is not doing a good enough job <u><strong>confirming intention</strong></u> to send money. </p>
 								<h2 class="subhead">User Flow</h2>
 								<p class="aa-para">The first step was drawing out the existing flow of how money is sent from user A to user B. The problems that stood out to me was that once the user presses the green pay button they nearly immediately send money, without a second opportunity to change their mind. (technically there is a short window to cancel the payment - as shown in the last view - however this cancelation button does not respond nearly in time to reliably give users a second chance to change their mind). The interaction looks something like this: </p>
-								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_c0e41757f86a4a98a1bf3e7cf63aaefa~mv2_d_1535_1253_s_2.png/v1/fill/w_740,h_604,al_c,usm_0.66_1.00_0.01/f0a7d3_c0e41757f86a4a98a1bf3e7cf63aaefa~mv2_d_1535_1253_s_2.png"/>
+								<img class="aa-img" src="images/venmo01.png"/>
 								<p class="aa-para">In particular, in the last view the cancel button is hidden in the top left corner, the payment processes very quickly  (~3 seconds), and there is a lot of unused white space, which given the previous screens' use of such space, can be a distraction to a user trying to find a cancel button in a time sensitive environment. As indicated by the interview process, this turned out to be a huge point of <strong>frustration</strong> for Venmo users.</p>
-								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_5685d799cdf54f358a26c3da0526b279~mv2.png/v1/fill/w_740,h_526,al_c,usm_0.66_1.00_0.01/f0a7d3_5685d799cdf54f358a26c3da0526b279~mv2.png">
+								<img class="aa-img" src="images/venmo02.png">
 								<h2 class="subhead">Develop</h2>
 								<p class="aa-para">Iterating several solutions</p>
-								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_e313d8c3bad34ba9a1254571b0732435~mv2.png/v1/fill/w_740,h_407,al_c,usm_0.66_1.00_0.01/f0a7d3_e313d8c3bad34ba9a1254571b0732435~mv2.png">
+								<img class="aa-img" src="images/venmo03.png">
 								<p style="text-align: center;" class="aa-para">Above: The current Venmo method of dealing with payment cancelations. </p>
 								<div class="aa-sectioning">
-									<img src="https://static.wixstatic.com/media/f0a7d3_e0d518c69333480cbd53981fbeeb37f8~mv2.png/v1/fill/w_350,h_191,al_c,usm_0.66_1.00_0.01/f0a7d3_e0d518c69333480cbd53981fbeeb37f8~mv2.png">
+									<img src="images/venmo04.png">
 									<p class="aa-para">The first idea I had was to expand on the green button to pay, so that when user taps the button as the payment is processing the user has the option to cancel the payment.</p>
-									<img src="https://static.wixstatic.com/media/f0a7d3_4b09e79e7a9f4d29987db1d317aead51~mv2.png/v1/fill/w_350,h_230,al_c,usm_0.66_1.00_0.01/f0a7d3_4b09e79e7a9f4d29987db1d317aead51~mv2.png">
+									<img src="images/venmo05.png">
 									<p class="aa-para">The second idea was to replace the tap to pay button with a slide to pay button. With the tap to pay button it was not obvious that tapping pay immediately pays the recipient. Sliding provides a greater sense of permanence in the transaction. </p>
-									<img src="https://static.wixstatic.com/media/f0a7d3_70f801cceecf4363ab4964ce92ca327e~mv2_d_1513_1619_s_2.png/v1/fill/w_350,h_375,al_c,usm_0.66_1.00_0.01/f0a7d3_70f801cceecf4363ab4964ce92ca327e~mv2_d_1513_1619_s_2.png">
+									<img src="images/venmo06.png">
 									<p class="aa-para">The third idea was to use the smartphone's onboard sensors to verify payment. Phones with a fingerprint sensor would require the user scan their fingerprint to confirm the payment, while newer iPhones would require tapping the side button to activate face id. The advantage of this solution is it is the most secure and also conveys a sense of permanence in triggering the transaction. </p>
-									<img src="https://static.wixstatic.com/media/f0a7d3_085e69317c554b8ebe37d21dd95ae8d2~mv2.png/v1/fill/w_350,h_280,al_c,usm_0.66_1.00_0.01/f0a7d3_085e69317c554b8ebe37d21dd95ae8d2~mv2.png">
+									<img src="images/venmo07.png">
 									<p class="aa-para">My final idea was inspired by solutions for Email that delay the message being sent by a specified amount of time. This solution would have the user tap to pay as normally, but then would be presented with an view saying that the payment will confirm in 60 seconds, where they can either swipe to sent money immediately or cancel the transaction.  </p>
 								</div>
 								<h2 class="subhead">Deliver</h2>
 								<p class="aa-para">After going through the pros and cons of each ideation I decided to implement idea 2, figuring it would keep thing simple enough in terms of user demands (not having to go through too many menus/settings), while still maintaining security and verifying user intention.</p>
-								<img class="aa-img" src="https://static.wixstatic.com/media/f0a7d3_bb3b05f850dc4fd4b174fa71e9036a01~mv2.png/v1/fill/w_740,h_406,al_c,usm_0.66_1.00_0.01/f0a7d3_bb3b05f850dc4fd4b174fa71e9036a01~mv2.png">
+								<img class="aa-img" src="images/venmo08.png">
 							</div>
 						</div>
 					</div>
