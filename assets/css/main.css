@@ -2580,8 +2580,7 @@ input, select, textarea {
 
 				.tiles article > .image img {
 					display: block;
-					width: 95%;
-					height:95%;
+					width: 100%;
 				}
 
 				.tiles article > .image:before {
