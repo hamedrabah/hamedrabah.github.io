@@ -2578,12 +2578,6 @@ input, select, textarea {
 				overflow: hidden;
 			}
 
-			.tiles article > .image img{
-				height: 80%;
-			}
-
-
-
 				.tiles article > .image:before {
 					pointer-events: none;
 					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
