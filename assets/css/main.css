@@ -3323,6 +3323,68 @@ input, select, textarea {
 	padding-left: 10px;
 	transition: border .5s;
 }
+.aa-img-3{
+	display: block;
+	text-align: center;
+}
+.aa-img-3 > img{
+	max-width: 30%; 
+	margin: 10px;
+}
+@media screen and (max-width: 600px){
+.aa-img-3{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.aa-img-3 > img{
+	min-width: 75%;
+}
+.aa-img-3 .watch-img{
+	min-width: 50%;
+}
+}
+@media screen and (max-width: 720px){
+.aa-img-3 > img{
+	max-width: 40%; 
+	margin: 10px;
+}
+}
+.aa-img-2{
+	flex-wrap: wrap;
+	display: flex;
+}
+.aa-img-2 > img{
+	max-width: 45%; 
+	margin: 10px;
+}
+@media screen and (max-width: 600px){
+.aa-img-2{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.aa-img-2 > img{
+	max-width: 100%; 
+	margin: 10px;
+}
+}
+@media screen and (max-width: 768px){
+.aa-img-2{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.aa-img-2 > img{
+	max-width: 100%; 
+	margin: 10px;
+}
+}
+iframe{
+	display: block;
+	margin: 50px auto;
+	max-width: 100%;
+}
 @media screen and (max-width: 480px){
 .quote{
 	font-size: 1.3em;
@@ -3450,7 +3512,7 @@ input, select, textarea {
 @media (max-width: 736px){
 .aa-sectioning > img{
 	display: block;
-	/*max-width: 80%;/
+	/*max-width: 80%;*/
 	margin: 10px auto;
 	max-height: 266px !important;
 }
