@@ -5,6 +5,11 @@
 
 
 
+.navBar{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	margin: 13%;
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3100,6 +3105,8 @@ input, select, textarea {
 					width: 4.25em;
 					text-indent: 4.25em;
 				}
+
+			
 
 					#menu > .close:before, #menu > .close:after {
 						background-size: 1.5em 1.5em;
