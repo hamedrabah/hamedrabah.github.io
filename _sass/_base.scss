@@ -1,5 +1,5 @@
 body {
-  background: black !important; 
+  background: $brand-color;
   color: $text-color;
   font-family: $font-family;
   font-size: 1.3125em;
@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-size: 3em;
-  margin: .5em auto;
+  margin: .2em auto;
 }
 
 h2 {
@@ -81,6 +81,14 @@ p > cite {
   text-align: right;
 }
 
+p:first-child:first-letter {
+  display:block;
+  float:left;
+  font-size:3em;
+  line-height:0.9em;
+  padding: 0 7px;
+}
+
 hr {
   border: 0;
   height: 0;
@@ -89,10 +97,11 @@ hr {
 }
 
 img {
+  float:left;
   display: flex;
   max-width: 100%;
   height: auto;
-  margin: 2em auto;
+  margin: .9em auto;
 }
 
 figure img {
@@ -115,12 +124,12 @@ figcaption {
 .home {
   max-width: 24em;
   margin: auto;
-  padding: 4em 1em;
+  padding: 2em 0em;
 }
 
 .content-title {
   font-size: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
