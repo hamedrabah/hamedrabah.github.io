@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hamed Rabah
-email: hr277@cornell.edu
+title: Amor Sapientiae
+email: hello@patdryburgh.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Product Manager at Microsoft Teams
-baseurl: "/hitchens" # the subpath of your site, e.g. /blog
-url: "https://patdryburgh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-icon: /assets/images/icon-512.png
-twitter_username: patdryburgh
-github_username:  patdryburgh
+  Essays on the love of knowledge
+url: "https://amorsapientiae.com" # the base hostname & protocol for your site, e.g. http://example.com
+icon: /assets/images/icon-5121.png
 
+  
 # Build settings
 markdown: kramdown
-
+show_excerpts: true
+hide_credits: true
+hide_search: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -44,4 +44,5 @@ plugins:
 paginate: 3
 paginate_path: "/page/:num/"
 
-hide_credits: true
+talkyard_server_url: https://comments-for-amorsapientiae-com.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
