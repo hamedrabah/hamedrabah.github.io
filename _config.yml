@@ -38,11 +38,3 @@ hide_search: true
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins:
-  - jekyll-paginate
-
-paginate: 3
-paginate_path: "/page/:num/"
-
-talkyard_server_url: https://comments-for-amorsapientiae-com.talkyard.net
-talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
