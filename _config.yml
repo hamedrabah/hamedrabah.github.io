@@ -38,7 +38,7 @@ icon: /assets/images/icon-5121.png
   
 # Build settings
 markdown: kramdown
-show_excerpts: true
+show_excerpts: false
 hide_credits: true
 hide_search: true
 # Exclude from processing.
