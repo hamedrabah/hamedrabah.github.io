@@ -13,7 +13,7 @@ The Microsoft Watch --- Concept
 > Smartwatches today are toys. Enterprise users don't want toys. They want a stylish and functional watch. So I set design a smartwatch a CEO could gladly wear.
 
 
-![](https://miro.medium.com/max/1818/1*HRk3Zts9nAXooYZVxI0tAQ.png
+![](https://miro.medium.com/max/1818/1*HRk3Zts9nAXooYZVxI0tAQ.png)
 ![](https://miro.medium.com/max/1854/1*EVo5HuaQm9bwuDJLNA3gyw.png)
 ![](https://miro.medium.com/max/1862/1*I5H2j7PSAD7e7bC-rwv6vA.png)
 ![](https://miro.medium.com/max/1858/1*DCuf_c-1WZx4ry_tZxBJ5A.png)
