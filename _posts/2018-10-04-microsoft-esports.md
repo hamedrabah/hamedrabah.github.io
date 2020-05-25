@@ -28,13 +28,10 @@ Currently the Esports community on Xbox is mostly player driven, rather than Mic
 
 ## Concept Mocks
 
-![](https://miro.medium.com/max/60/1*eh5w4n6IdvISqlfWKE7N4Q.jpeg?q=20)
 
 ![](https://miro.medium.com/max/2048/1*eh5w4n6IdvISqlfWKE7N4Q.jpeg)
 
 Initial wireframe for my idea
-
-![](https://miro.medium.com/max/60/1*IFdvAaqP_imk8h7E5-iQbw.png?q=20)
 
 ![](https://miro.medium.com/max/1380/1*IFdvAaqP_imk8h7E5-iQbw.png)
 

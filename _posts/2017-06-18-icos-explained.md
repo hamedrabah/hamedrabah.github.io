@@ -23,8 +23,6 @@ Currencies such as the USD, GBP, etc. have 3 main purposes.
 
 Cryptocurrencies such as Bitcoin, Ethereum, Ripple, etc. are better thought of as analogus to currency in its 3 purposes: storing value, measuring value, and exchanging value.
 
-![](https://miro.medium.com/max/60/1*VGz1Rvfq85Rx2CUeh0Y_Mg@2x.png?q=20)
-
 ![](https://miro.medium.com/max/1024/1*VGz1Rvfq85Rx2CUeh0Y_Mg@2x.png)
 
 Apple stock, while worth money, would not be a good currency because not everybody has a need or desire for apple stock, it is harder to liquidate, and valuing items in terms of apple stock would get confusing. Imagine going to the (Amazon) grocery store and seeing an pear priced at 1/110th of an apple stock.
@@ -35,13 +33,9 @@ So where do ICOs come in?
 
 Just like you can buy equity in a company using the medium of a US dollar, you can buy equity in a company (that uses an ICO) using a cryptocurrency (usually Bitcoin) to buy their coin. The coin (or token as they are commonly called) typically represent equity in the company and let you share in the profits, although this is not always the case.
 
-![](https://miro.medium.com/max/60/1*JROuZF1n_dIy8B0tdl2zCQ@2x.png?q=20)
-
 ![](https://miro.medium.com/max/1291/1*JROuZF1n_dIy8B0tdl2zCQ@2x.png)
 
 [Golem](https://golem.network/) is one of the more exciting projects in the decentralized apps ("Dapps") community. The developers at Golem are building a decentralized network of computers that provide computing power and give the user access to the network to use the supercomputer. The main applications of this are for universities and academia, where a professor would be able to acccess a supercomputer on a basic laptop by having all the power intensive calculations taking place in computers abroad and then transferred to the basic computer. In the case of Golem, people who participated in the ICO were awarded Golem tokens (aka coins) that rather than equity, represent accesss to use the computing network, with the amount of time proportional to the number of tokens owned.
-
-![](https://miro.medium.com/max/60/1*ejDvxVy0TjkXbK7dI-qMQw@2x.png?q=20)
 
 ![](https://miro.medium.com/max/728/1*ejDvxVy0TjkXbK7dI-qMQw@2x.png)
 

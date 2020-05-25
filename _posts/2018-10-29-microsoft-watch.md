@@ -12,28 +12,12 @@ The Microsoft Watch --- Concept
 
 > Smartwatches today are toys. Enterprise users don't want toys. They want a stylish and functional watch. So I set design a smartwatch a CEO could gladly wear.
 
-![](https://miro.medium.com/max/60/1*HRk3Zts9nAXooYZVxI0tAQ.png?q=20)
 
-![](https://miro.medium.com/max/1818/1*HRk3Zts9nAXooYZVxI0tAQ.png)
-
-![](https://miro.medium.com/max/60/1*EVo5HuaQm9bwuDJLNA3gyw.png?q=20)
-
+![](https://miro.medium.com/max/1818/1*HRk3Zts9nAXooYZVxI0tAQ.png
 ![](https://miro.medium.com/max/1854/1*EVo5HuaQm9bwuDJLNA3gyw.png)
-
-![](https://miro.medium.com/max/60/1*I5H2j7PSAD7e7bC-rwv6vA.png?q=20)
-
 ![](https://miro.medium.com/max/1862/1*I5H2j7PSAD7e7bC-rwv6vA.png)
-
-![](https://miro.medium.com/max/60/1*DCuf_c-1WZx4ry_tZxBJ5A.png?q=20)
-
 ![](https://miro.medium.com/max/1858/1*DCuf_c-1WZx4ry_tZxBJ5A.png)
-
-![](https://miro.medium.com/max/60/1*FgCniOKZ2KYiA55cXFWjkQ.png?q=20)
-
 ![](https://miro.medium.com/max/1858/1*FgCniOKZ2KYiA55cXFWjkQ.png)
-
-![](https://miro.medium.com/max/60/1*dbHCoQeNRc74dPcjHPxzKw.png?q=20)
-
 ![](https://miro.medium.com/max/1832/1*dbHCoQeNRc74dPcjHPxzKw.png)
 
 ## Background
@@ -46,12 +30,7 @@ Smartwatches today are toys. Enterprise users don't want toys. They want a styli
 
 *Trend 3*: Why Microsoft is the perfect player to take advantage of this gap in the market. Their devices group already has experience making wearables thanks to the Microsoft Band. IDC research (see below) shows wristbands are currently 48% of the wearables market, but expected to decrease to 24% by 2021. Watches on the other hand are expected to increase from 48% to 64% in the same time frame. Given Microsoft's identity as the B2B enterprise company, the enterprise smartwatch should be their next step.
 
-![](https://miro.medium.com/max/60/1*6OggTWctUBAovft9LO8WBg.jpeg?q=20)
-
 ![](https://miro.medium.com/max/800/1*6OggTWctUBAovft9LO8WBg.jpeg)
-
-![](https://miro.medium.com/max/60/1*30UINyNUFnZgHZqkbBWtGQ.jpeg?q=20)
-
 ![](https://miro.medium.com/max/800/1*30UINyNUFnZgHZqkbBWtGQ.jpeg)
 
 ## Problems
@@ -62,28 +41,12 @@ Why Apple failed: Apple tried entering this market when they first introduced th
 
 ## Designing the User Interface
 
-![](https://miro.medium.com/max/38/1*jzCX-vpQpMsq40uS-Q6MWw.png?q=20)
 
 ![](https://miro.medium.com/max/492/1*jzCX-vpQpMsq40uS-Q6MWw.png)
-
-![](https://miro.medium.com/max/38/1*8Tvp-tCqowGOROFxD_8n8A.png?q=20)
-
 ![](https://miro.medium.com/max/492/1*8Tvp-tCqowGOROFxD_8n8A.png)
-
-![](https://miro.medium.com/max/38/1*ET6M0DLLjIS599OVf9GmGg.png?q=20)
-
 ![](https://miro.medium.com/max/492/1*ET6M0DLLjIS599OVf9GmGg.png)
-
-![](https://miro.medium.com/max/38/1*32MP6t8XK5_JH4NWQ5DkvA.png?q=20)
-
 ![](https://miro.medium.com/max/492/1*32MP6t8XK5_JH4NWQ5DkvA.png)
-
-![](https://miro.medium.com/max/38/1*eV2GzfX0zHcAy3S-1AlaLQ.png?q=20)
-
 ![](https://miro.medium.com/max/492/1*eV2GzfX0zHcAy3S-1AlaLQ.png)
-
-![](https://miro.medium.com/max/38/1*nKQf-1LC6vtwYFnIWCO2tA.png?q=20)
-
 ![](https://miro.medium.com/max/492/1*nKQf-1LC6vtwYFnIWCO2tA.png)
 
 ## Goals

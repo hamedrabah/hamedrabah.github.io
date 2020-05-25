@@ -18,8 +18,6 @@ The Intelligent Crypto Investor
 -   Trading Strategies
 -   Asset Allocation
 
-![](https://miro.medium.com/max/40/1*mOKfHMZiQMQBqTwvSpyyZw.jpeg?q=20)
-
 ![](https://miro.medium.com/max/331/1*mOKfHMZiQMQBqTwvSpyyZw.jpeg)
 
 ## The Basics of Investing
@@ -32,8 +30,6 @@ In comparison to an investor, a speculator looks at the price of an asset, and d
 
 The driving force behind the insanely high growth of cryptocurrencies is due to speculation. Not speculation by hedge funds or the team at Ethereum, they know what they are doing and can decently determine the value of a crypto. The problem is speculation by you and I.
 
-![](https://miro.medium.com/max/60/1*NVRWp6vLNZjLFd1cbv0WRQ.jpeg?q=20)
-
 ![](https://miro.medium.com/max/480/1*NVRWp6vLNZjLFd1cbv0WRQ.jpeg)
 
 If you do not even know what the currency is, you should not "invest" in it. Too many people are seeing the cryptocurrency class increasing rapidly and determine they want a piece. This drives the price up beyond its true value, causing institutional investors to become even richer and sell their assets at a premium. When a large volume of these sell offs occurs it causes the price of the currency to suddenly drop.
@@ -45,8 +41,6 @@ This in turn causes panic amongst lay people who see their "investments" rapidly
 For starters it is important to note that cryptocurrencies and ICOs lack clear regulation, which will not last long. But while the space is unregulated, this means shady companies can publish a fancy looking website (extra points for magic words like blockchain, A.I., VR, even better if it uses all three), then raise an ICO, take your money, give you a meaningless token and leave you with nothing. Your investment in the crypto asset should not be based on faith that the issuer will behave ethically, your investment should instead be based on due diligence on the team, the platform, the market cap, and most importantly the regulations and enforcement surrounding governance of the asset.
 
 If a company is asking for an insanely high amount of money, do not invest. It does not matter if the company is able to raise millions of dollars if it can not properly justify why it needs that money. A company with too much money is just as bad as a company with too little. The most responsible crypto assets issuing ICOs limit how much money they can receive, and they do not limit the money because they are generous people, they limit it because they want to succeed as a startup and maintain proper valuation and reasonable use of services.
-
-![](https://miro.medium.com/max/60/1*XtU9qIWrWLrGub1AhmcXXA.png?q=20)
 
 ![](https://miro.medium.com/max/995/1*XtU9qIWrWLrGub1AhmcXXA.png)
 

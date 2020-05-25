@@ -14,8 +14,6 @@ categories: book
 
 When he was a teenager in college, Elon was moving into his dorm when across the hall he saw a cute girl who he and every other guy in the dorm immediately fancied.
 
-![](https://miro.medium.com/max/40/1*EHL68X9cD8imG-BK3jshYw.jpeg?q=20)
-
 ![](https://miro.medium.com/max/331/1*EHL68X9cD8imG-BK3jshYw.jpeg)
 
 Although very much nerdy, Elon had confidence. He walked to her side of the hall, and immediately introduced himself and asked her if she wanted to get ice cream at a later date. On the day Elon and her were supposed to go on the date, he walked to her dorm and found a post-it note. "Sorry to cancel Elon I have to study for my spanish exam".
@@ -32,7 +30,6 @@ That woman became his wife.
 
 When it was time to pick a college major, Elon did not shy away from a challenge. He transferred to Upenn his sophomore year and majored in economics. He took a fifth year to finish a degree in physics as well.
 
-![](https://miro.medium.com/max/60/1*Xsf9VbP4AcMcdsvuT9vWJg.jpeg?q=20)
 
 ![](https://miro.medium.com/max/300/1*Xsf9VbP4AcMcdsvuT9vWJg.jpeg)
 
@@ -48,8 +45,6 @@ By studying the first principles of both natural nature and human nature, Elon i
 
 ## 3\. Ask simple questions, solve big problems.
 
-![](https://miro.medium.com/max/60/1*JJCSGK6FtNbX4IRvl9KLoQ.jpeg?q=20)
-
 ![](https://miro.medium.com/max/1082/1*JJCSGK6FtNbX4IRvl9KLoQ.jpeg)
 
 The third lesson from Elon for entrepreneurs is to solve a problem you are passionate about. The thought process with Tesla did not begin with thinking how to maximize the utilization of multiple tightly packed bunches of lithium ion batteries to replace a fuel combustion engine.
@@ -57,8 +52,6 @@ The third lesson from Elon for entrepreneurs is to solve a problem you are passi
 > Tesla began with a simple question. How can we build from scratch, an environmentally friendly car that is fun to ride?
 
 The distinction here is important. Previous cars were electric versions of existing car models. They were not built from the ground-up to be electric. Instead of relying on preconceived models of cars, Tesla designed the Roadster from the ground-up with the electric battery in mind. Doing so allowed them to free-up car space that existing models used, even for electric cars.
-
-![](https://miro.medium.com/max/60/1*3n-DWHMCMbsJFOGe5HSe0w.jpeg?q=20)
 
 ![](https://miro.medium.com/max/1980/1*3n-DWHMCMbsJFOGe5HSe0w.jpeg)
 

@@ -22,8 +22,6 @@ This week I had the pleasure of attending the Tech Crunch Robotics conference at
 Robots can fly. No, not the bipedal robots we normally think of, but rather drones. Drones are popular because of consumer applications, but the truth is the future of drones is going to be big, and it is going to be industrial.\
 Drones are already playing a big part in farming such as by monitoring crops' level of nutritional intake.
 
-![](https://miro.medium.com/max/60/1*G2vO68PYSYXSai6zh9Athw.jpeg?q=20)
-
 ![](https://miro.medium.com/max/1080/1*G2vO68PYSYXSai6zh9Athw.jpeg)
 
 Expect the roles of drones to expand into other industries such as mining, construction, and security. Imagine a drone that can mine and transport materials from a hard to reach mountain (extra points if that mountain is on a different planet), or a drone that can assist construction workers in building by placing items in otherwise dangerous locations, or a drone that can monitor banks 24/7 and provide facial recognition to ensure the bank is safe from known criminals.
@@ -34,8 +32,6 @@ Self-driving cars have come a long way, but there are still serious questions th
 When a driver wants to change lanes and makes eye contact with another to see if they have permission to change, this negotiation often happens without any words or hand gestures, but rather eye contact. How do self-driving cars account for this kind of human trait?
 
 What difficulties will occur if the autonomous vehicles (AV) are different brands? If an iPhone can't understand an Android it is not a problem for either user. However, if a Google Waymo car cannot understand a Tesla's algorithm, this can cause serious problems for users of both cars.
-
-![](https://miro.medium.com/max/60/1*IpZQLIRKTSbBqtYM0OM4MA.jpeg?q=20)
 
 ![](https://miro.medium.com/max/640/1*IpZQLIRKTSbBqtYM0OM4MA.jpeg)
 
@@ -49,8 +45,6 @@ Software is eating up the world, including hardware. It is becoming increasingly
 
 What was once an issue with hardware, expensive costs to scale is becoming solved by software. Fixing an issue with a car no longer requires a new car, but rather a quick software update that can be performed while the car is charging.
 
-![](https://miro.medium.com/max/60/1*FQQ1hYMATVQ1LePt0kSPFQ.jpeg?q=20)
-
 ![](https://miro.medium.com/max/600/1*FQQ1hYMATVQ1LePt0kSPFQ.jpeg)
 
 Another key example is the rise of 3D printing. With it, the marginal cost of creating hardware at scale has been substantially reduced, allowing greater margins on hardware. Furthermore it is now easier than ever to use 3D printing software to create detailed and nuanced changes to variations of products, without having to make serious changes to an assembly line or compromise scale of the core product.
@@ -58,8 +52,6 @@ Another key example is the rise of 3D printing. With it, the marginal cost of cr
 ## Robots as a Service
 
 Robots are no longer a pretty face, they are becoming useful. Especially in niche, non-sexy areas such as mining and agriculture.
-
-![](https://miro.medium.com/max/60/1*kIfdOCmNO3m4DK1b_oHOiA.png?q=20)
 
 ![](https://miro.medium.com/max/1846/1*kIfdOCmNO3m4DK1b_oHOiA.png)
 
@@ -71,15 +63,11 @@ Imagine the applications of this to a mining robot or a heavy lifting robot in c
 
 If there is one thing I took from the MIT conference it is this: we are at the early days of what is possible in Robotics and the truly exciting applications have yet to come. Machine learning, AI, and 3D printing are creating an inflection point in what is possible using Robotics and we are going to see a rapid acceleration in the technology as it applies to helping businesses create value.
 
-![](https://miro.medium.com/max/60/1*doISq7nDJgKnuvp9UjlALA.jpeg?q=20)
-
 ![](https://miro.medium.com/max/900/1*doISq7nDJgKnuvp9UjlALA.jpeg)
 
 [
 
 hamedrabah
 ----------
-
-](https://medium.com/hamedrabah?source=post_sidebar--------------------------post_sidebar-)
 
 #### Product @ Microsoft. HCI @CornellUniversity

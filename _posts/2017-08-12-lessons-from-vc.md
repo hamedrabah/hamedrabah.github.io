@@ -29,8 +29,6 @@ Corporate VCs --- These are a different kind of animal altogether. In some ways
 
 ## Lesson 3: The Work of a VC
 
-![](https://miro.medium.com/max/60/1*KmBsZLDj37_vFbYxYEui2w.jpeg?q=20)
-
 ![](https://miro.medium.com/max/947/1*KmBsZLDj37_vFbYxYEui2w.jpeg)
 
 To somebody who watches Shark Tank or Planet of the Apps, it is easy to think that VCs spend their time sitting in chairs while companies pitch to them for 5 minutes and make an instant decision that determines the future of their company. *This couldn't be further from the truth*.
@@ -55,8 +53,6 @@ On the VC end of things, there is rarely a consensus amongst an investment commi
 
 One of the many debates we had was on the [ICO](https://medium.com/theblockchainblog/icos-explained-c5f9d7014b9c) economy. Is it a bubble? Is it the next internet? If it is, will it produce Amazon ... or Pets.com? After extensive research and learning about ICOs and the underlying technology blockchain, we became convinced that the Web 3.0 (decentralized web) is a serious value add in the right circumstances. There are some ICOs that are taking advantage of this value proposition, however, truthfully these are the minority of ICOs. The majority are selling snake oil. So how do we, a busy generalist VC, gain exposure to the tremendous potential and gains of ICOs, while maintaining quality and ensuring each company is the real deal?
 
-![](https://miro.medium.com/max/60/1*H7lxZh3QPqSGVedtCNuDqQ.jpeg?q=20)
-
 ![](https://miro.medium.com/max/1035/1*H7lxZh3QPqSGVedtCNuDqQ.jpeg)
 
 We discovered the answer in our next investment, [Pantera Capital](https://panteracapital.com/). Pantera is a VC and hedge fund that is opening an new fund dedicated to ICOs, they have an investment team trained in studying the cryptocurrency market and analyzing which of the initial coin offerings are substantive companies that will exist in a few years, and which are strong at marketing, but lacking in substance. The Pantera Capital ICO fund will allow our VC to gain exposure to this 448% gain in YTD returns from an expert team, while mitigating risk for our investors, and allowing us as a VC to spend our time focusing on our speciality: early stage companies.
@@ -72,8 +68,6 @@ Saying no to companies is easily the hardest part of the job. It is hard telling
 For the companies that do receive venture funding, it is a tremendous feeling helping companies grow and helping founders turn their dreams and ambitions into a reality. That is really what motivates me when I woke up each day this summer, knowing that my work is helping somebody's dream become successful. VC is not about being the star of the show, it is a supporting role, but it is one I love playing. I have a front row seat to the most interesting people in the world, entrepreneurs, and I get to watch them do what they love and care about, and learn from them about new industries, topics, and problems that they are solving.
 
 I would like to thank the team at [Silicon Badia](http://www.siliconbadia.com/team/), and especially my managing partner and mentor, Namek Zu'bi, for giving me this experience this summer. Not many VCs would have given me the chance they did, but they allowed me to prove myself to them, and I worked my butt off everyday to thank them for that chance. Namek made me work harder than any boss or professor I ever had, and there was not a single dull moment at Silicon Badia, but it was all worth it. I came out smarter, stronger, and wiser. Venture is hard work, but I am glad I got the chance to do it, and I hope this is just the beginning of a lifelong career in helping entrepreneurs on the path to success.
-
-![](https://miro.medium.com/max/46/1*bG9upZZwsX-saEqSFhz0Ow.jpeg?q=20)
 
 ![](https://miro.medium.com/max/1932/1*bG9upZZwsX-saEqSFhz0Ow.jpeg)
 

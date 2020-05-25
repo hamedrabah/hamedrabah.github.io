@@ -17,8 +17,6 @@ The death of Uber is not about the toxic culture of one company, but rather the 
 
 Imagine a future where every car is fully autonomous. This is not so much a question of *if* this future will happen, so much as *when* it will happen. Thus when every car (not just your autonomous Uber) is capable of driving you from point A to point B, what is stopping any legacy car manufacturer from mimicking Uber's business model?
 
-![](https://miro.medium.com/max/60/1*RgwdjLOBjAYdnzEA0N3Tig.jpeg?q=20)
-
 ![](https://miro.medium.com/max/824/1*RgwdjLOBjAYdnzEA0N3Tig.jpeg)
 
 Google's Waymo Autonomous Vehicle
