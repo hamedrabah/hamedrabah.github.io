@@ -23,6 +23,8 @@ icon: /assets/images/icon-512.png
 # Build settings
 markdown: kramdown
 
+hide_credits: true
+hide_search: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
