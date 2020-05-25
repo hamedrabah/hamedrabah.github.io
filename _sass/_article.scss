@@ -2,8 +2,8 @@
   background: white;
   margin: 2em auto;
   max-width: 60rem;
-  padding: -4em 0;
-  box-shadow: 12px 18px 24px rgba(darken($brand-color, 0%), .1);
+  padding: 2em 0;
+  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .1);
 }
 
 .post > * {
@@ -16,7 +16,7 @@
 .post > h1 {
   font-size: 2em;
   max-width: 48rem;
-  padding: -3.5em -3.5em;
+  padding: 2em 1em;
   text-align: center;
 }
 
@@ -24,7 +24,6 @@
   text-align: justify;
   text-indent: 1.5em;
   text-justify: inter-word;
-  margin-bottom: 1.5em ;
 }
 
 .post p:first-of-type,
@@ -48,7 +47,7 @@
 }
 
 .post-content:first-child {
-  margin-top: -4em;
+  margin-top: 4em;
 }
 
 .post-meta {
