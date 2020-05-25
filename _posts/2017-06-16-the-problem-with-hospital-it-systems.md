@@ -5,9 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-The Problem with Hospital IT Systems
-====================================
-
 
 Libraries. Banks. Universities. Even fast food. Almost every operation you can think of has been transformed by adopting the latest technology. That is with one strange exception: hospitals. Of all the industries listed, surely when lives are at stake that is when the need to advance technology is most urgent?
 

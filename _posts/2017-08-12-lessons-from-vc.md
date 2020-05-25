@@ -2,12 +2,8 @@
 layout: post
 title: "Top 5 Lessons from VC"
 author: "Hamed Rabah"
-categories: book
+categories: tech
 ---
-
-
-Top 5 Lessons from VC
-=====================
 
 ## Lesson 1: Not all that glitters is gold
 

@@ -5,9 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-The New Oil
-===========
-
 When Google search engine started back in 1997, advertisers laughed at the idea of putting content on the internet. Who would see these ads except for perhaps a few bankers or academics? Then, something strange happened. Google changed the search engine forever. By using an algorithmic that sorted websites based on user data, Google created a website that constantly improved with each use. Every click made the search engine better. If we compare cars, Google was a fuel efficient car with unlimited oil refills, and Yahoo...a clunker.
 
 ![](https://miro.medium.com/max/938/1*okgWfrQwFQINGTAtErnckQ.png)

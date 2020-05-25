@@ -5,9 +5,6 @@ author: "Hamed Rabah"
 categories: book
 ---
 
-7 Lessons from Elon Musk's biography
-====================================
-
 ## 1\. Ice Cream
 
 > A brief story of how Elon Musk never gives up.

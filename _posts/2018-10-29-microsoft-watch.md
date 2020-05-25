@@ -6,10 +6,6 @@ categories: tech
 ---
 
 
-The Microsoft Watch --- Concept
-=============================
-
-
 > Smartwatches today are toys. Enterprise users don't want toys. They want a stylish and functional watch. So I set design a smartwatch a CEO could gladly wear.
 
 

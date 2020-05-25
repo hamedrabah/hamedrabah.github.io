@@ -5,9 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-TechCrunch Robotics @ MIT
-=========================
-
 
 This week I had the pleasure of attending the Tech Crunch Robotics conference at MIT, here are the themes I took from the event. Hopefully this clears up some misconceptions about robots.
 
@@ -65,7 +62,6 @@ If there is one thing I took from the MIT conference it is this: we are at the e
 
 ![](https://miro.medium.com/max/900/1*doISq7nDJgKnuvp9UjlALA.jpeg)
 
-[
 
 hamedrabah
 ----------

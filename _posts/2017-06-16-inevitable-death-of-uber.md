@@ -5,10 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-The Inevitable Death of Uber
-============================
-
-
 [*"Now that Uber doesn't have a CEO, COO, CTO, or CFO, I guess this is the closest it's ever been to a self-driving car company"*](https://www.linkedin.com/feed/update/urn:li:activity:6280583287664705536).
 
 The latest joke going around the internet is not what I am going to talk about.

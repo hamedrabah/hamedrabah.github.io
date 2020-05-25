@@ -5,11 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-
-The Intelligent Crypto Investor
-===============================
-
-
 > Does the advice of Benjamin Graham hold true in the age of highly volatile cryptocurrencies?
 
 -   The Basics of Investing

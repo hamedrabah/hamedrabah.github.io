@@ -5,9 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-Microsoft Esports --- Concept
-===========================
-
 > *The following is a Product Specification (and) passion project I created in my free time. It is in no way affiliated with Microsoft.
 
 ## Background
@@ -53,7 +50,7 @@ Currently she uses her Xbox's Youtube and Twitch apps to watch gameplay streams.
 
 After seeing an epic tournament comeback in the last minute, Cortana wants to group up with friends, but they are all busy at the time. She wants to find a new squad to play competitive games with, but currently has no systematic way to do that, except for games which offer such functionality built in.
 
-After Microsoft Esports
+## After Microsoft Esports
 
 Cortana is watching her favorite Halo stream on Microsoft's built in streaming app. She is in the integrated messenger with her friends, chatting about the awesome last minute comeback by San Francisco Shock. After the game finishes Cortana asks her friends if they want to play competitive Halo 3 in the Master Chief Collection. Her friends have to leave, no problem says Cortana.
 
@@ -93,38 +90,3 @@ Platforms: Universal
 -   Cross-platform gaming/streaming inevitably means helping the competition, the question is if the income effect is greater than the substitution effect (if promoting eSports and cross-platform gaming creates a bigger pie for everyone or if it reduces the size of the slice).
 -   Not starting a role out in year 1 with the Southeast Asian market can leave the market ripe for the taking. On the other hand entering in a sloppy way can leave the market to rivals. The question is if the first mover advantage is worth the risks.
 -   Investing in Xbox/PC gaming vs mobile gaming. Esports trends show both are rapidly growing, and mobile is an unexplored and under-tapped resource for Microsoft. Especially in light with their more recent collaborations with [Android](https://www.theverge.com/2018/10/3/17933644/microsoft-android-apps-windows-10-app-mirroring-report).
-
-## Appendix: Research
-
-[
-
-Esports revenues will reach $696M in 2017 and $1.5Bn by 2020
-------------------------------------------------------------
-
-### Newzoo, the global leader in esports, games, and mobile intelligence, is announcing the release of its 2017 Global...
-
-#### newzoo.com
-
-](https://newzoo.com/insights/articles/esports-revenues-will-reach-696-million-in-2017/)
-
-[
-
-Cloud Gaming Market Analysis By Platform, Service Type & Geography, With Forecasts to 2023 ...
---------------------------------------------------------------------------------------------
-
-### DUBLIN--()--The "Cloud Gaming Market - Forecasts from 2018 to 2023" report has been added to ResearchAndMarkets.com's...
-
-#### www.businesswire.com
-
-](https://www.businesswire.com/news/home/20180424005697/en/Cloud-Gaming-Market-Analysis-Platform-Service-Type)
-
-[
-
-2018 -2023 Cloud Gaming Market Global Report On Competitive Landscape, Key Players, Future...
--------------------------------------------------------------------------------------------
-
-### This report helps to analyze competitive developments such as joint ventures, strategic alliances, mergers and...
-
-#### www.reuters.com
-
-](https://www.reuters.com/brandfeatures/venture-capital/article?id=29109)

@@ -5,10 +5,6 @@ author: "Hamed Rabah"
 categories: tech
 ---
 
-
-ICOs explained
-==============
-
 *ICO --- Inital Coin offering.*
 
 You may have heard about the new trend called ICOs and in light of all the existing cryptocurrencies, making sense of this new trend can get confusing. I am going to help clear things up.
