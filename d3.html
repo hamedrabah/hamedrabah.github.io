@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Visualizing movie data in D3.JS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Hamed Rabah</span>
+								</a>
+
+							<!-- Nav -->
+								<!-- <nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav> -->
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<div class="aa-wrapper">
+								<h1 class="aa-heading">Visualizing movie data in D3.JS</h1>
+								<p class="aa-para">Turning a clunky dataset into something beautiful and useful.</p>
+								<img class="aa-img" src="images/d301.webp">
+								<p class="aa-para">This semester at Cornell University, I was enrolled in an upper level CS course called "Data Driven Web Applications". As one of our projects a team of myself two others had to turn a large dataset into a meaningful visualization. </p>
+								<p class="aa-para">At the start we did a cursory glance at the various datasets available on Kaggle and based on these drew out various ideas. Our 3 favorites are shown below. </p>
+								<div class="aa-sectioning2">
+									<img src="images/d302.webp">
+									<img src="images/d303.webp">
+									<img src="images/d304.webp">
+								</div>
+								<p>
+									We were deciding between:<br/>
+									idea 1: an interactive map of areas affected by terrorism throughout time.<br/>
+									idea 2: A comparison of movie budget data with their gross revenue. <br/>
+									idea 3: A word map of the most frequent words spoken in TED talks.<br/>
+								</p>
+								<p class="aa-para">We discounted idea 3 first, deciding that text mining various talks was cumbersome and presenting it in a clean format would be a challenge. Then we were stuck between ideas 1 and 2. Idea 1 was certainly provocative, but after going through the data set we realized there was a notable gap in missing data for earlier years. Idea 2 struck the right balance between utility, interest, and pragmatism - both in data and design. </p>
+								<p class="aa-para">
+									Our next challenge was thinking more closely about the chart we wanted for movie data, as we were also coders, we wanted to run through what each particular function would do. So we created a few sketches representing different ideas.
+								</p>
+								<div class="aa-sectioning2">
+									<img src="images/d305.webp">
+									<img src="images/d306.webp">
+									<img src="images/d307.webp">
+								</div>
+								<p class="aa-para">
+									The first idea we had was to have a grid of circles representing each film, and a slider that the user can utilize to filter movies by score. The X-axis would be the movie's budget and the Y-axis represents the revenue. On each corner of the graph would a commentary about how the film scores, so as an example: the corner of the graph representing a low budget and high revenue would be a indie success, a high budget and high revenue would be a blockbuster success, and a low budget and low grossing movie would mean "save your time!".
+								</p>
+								<p class="aa-para">
+									The second idea was to have the same axis, but rather than uniformly sized circles, have circles of different radius' representing how well the film scored on Rotten Tomatoes. As shown the second page of the second sketch, our thinking process was to first write down all of our available data and then brainstorm different ways we can use that data. We ultimately decided against this idea, but decided to incorporate parts of it such as the reviews.
+								</p>
+								<p class="aa-para">
+									The third idea was to have uniformly sized circles, but with various filters representing score, genre, and other factors. When a circle was clicked it would show a pop up displaying move information such as a quote from a review. We decided against this idea because it would require too much manual data entry, especially for the pop up portion.
+								</p>
+								<p class="aa-para">
+									The final direction we took was to take a hybrid approach that combined our favorite elements of the first and second design. We decided to keep the movie information of the 3rd idea, but move it to the top of the website right under the posters of a few select films. We keep the commentary on the corner of the graph from the first idea, but simplified it.
+								</p>
+								<p class="aa-para">
+									Here is what the final product looks like: <br/>
+									-A Star Wars inspired header (because nothing says Blockbuster movie like Star Wars)<br/>
+									-A gallery of a few well known movies along with their descriptions upon click<br/>
+									-Clicking a movie directs the user to a highlighted circle on the graph representing that film<br/>
+								</p>
+								<img class="aa-img" src="images/d308.webp">
+								<img class="aa-img" src="images/d309.webp">
+								<p>Check out the final project <a href="https://github.com/hamedrabah/Movie-Data">here</a></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<div class="inner">
+											<section>
+												<h2>Follow</h2>
+												<ul class="icons">
+													<li><a href="https://twitter.com/hamedArabah" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="https://www.linkedin.com/in/hamedrabah/" class="icon style2 fa-linkedin"><span class="label">Dribbble</span></a></li>
+													<li><a href="https://github.com/hamedrabah" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+													<li><a href="https://www.instagram.com/classichamoudi/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+													<li> <a href="mailto:hr277@cornell.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+												</ul>
+											</section>
+											<ul class="copyright">
+												<li>&copy; Hamed Rabah</li>
+											</ul>
+										</div>
+									</footer>
+							</div>
+
+			<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+
+		</body>
+	</html>
