@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hamed Rabah</title>
-<meta name="description" content="Hamed Rabah. Startup partnerships at Microsoft. Angel investor in San Francisco.">
+<meta name="description" content="Hamed Rabah. Early-stage AI partnerships at Microsoft. Angel investor in San Francisco.">
 <meta property="og:title" content="Hamed Rabah">
-<meta property="og:description" content="Startup partnerships at Microsoft. Angel investor in San Francisco.">
+<meta property="og:description" content="Early-stage AI partnerships at Microsoft. Angel investor in San Francisco.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://hamedrabah.github.io/">
 <meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23c9582a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23faf8f5'/%3E%3Ctext x='16' y='23' font-family='Newsreader,Georgia,serif' font-size='22' font-weight='500' fill='%231a1816' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #faf8f5;
@@ -21,55 +21,96 @@
     --muted: #6b6660;
     --accent: #c9582a;
     --rule: #e8e2d8;
+    --link: #b8b0a4;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
     background: var(--bg);
     color: var(--ink);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 17px;
-    line-height: 1.6;
+    font-family: 'Newsreader', 'Iowan Old Style', 'Charter', Georgia, serif;
+    font-size: 19px;
+    line-height: 1.55;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "kern", "liga", "onum";
   }
   .wrap {
-    max-width: 620px;
+    max-width: 640px;
     margin: 0 auto;
     padding: 80px 24px 80px;
   }
-  h1 {
-    font-family: 'Fraunces', Georgia, serif;
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 36px;
+  }
+  .avatar {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--rule);
+    flex-shrink: 0;
+  }
+  .header-text h1 {
+    font-family: 'Newsreader', Georgia, serif;
     font-weight: 500;
-    font-size: 44px;
-    letter-spacing: -0.02em;
-    line-height: 1.1;
-    margin: 0 0 8px;
+    font-size: 38px;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+    margin: 0 0 6px;
+    font-variation-settings: "opsz" 60;
   }
   .tagline {
     color: var(--muted);
     font-size: 17px;
-    margin: 0 0 40px;
+    line-height: 1.4;
+    margin: 0;
+    font-style: italic;
   }
-  p { margin: 0 0 20px; }
+  p { margin: 0 0 22px; }
   p a, .links a, ul a {
     color: var(--ink);
     text-decoration: underline;
-    text-decoration-color: var(--rule);
+    text-decoration-color: var(--link);
+    text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    transition: text-decoration-color 0.15s;
+    transition: text-decoration-color 0.15s, color 0.15s;
   }
   p a:hover, .links a:hover, ul a:hover {
     text-decoration-color: var(--accent);
+    color: var(--accent);
   }
+  .cta {
+    margin: 28px 0 8px;
+    padding: 18px 22px;
+    border-left: 2px solid var(--accent);
+    background: rgba(201, 88, 42, 0.04);
+    font-style: italic;
+    color: var(--ink);
+  }
+  .cta a {
+    color: var(--accent);
+    text-decoration-color: rgba(201, 88, 42, 0.4);
+  }
+  .cta a:hover { text-decoration-color: var(--accent); }
   .section-label {
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.12em;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
-    margin: 56px 0 18px;
+    margin: 44px 0 14px;
+    font-variation-settings: "opsz" 14;
+  }
+  .section-note {
+    color: var(--muted);
+    font-size: 15px;
+    font-style: italic;
+    margin: -6px 0 14px;
   }
   ul {
     list-style: none;
@@ -87,23 +128,41 @@
   ul li .name {
     font-weight: 500;
     flex-shrink: 0;
+    min-width: 110px;
   }
   ul li .desc {
     color: var(--muted);
-    font-size: 15px;
+    font-size: 17px;
+    font-style: italic;
   }
   .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 32px;
+    gap: 22px;
+    margin-top: 18px;
+  }
+  .writing-list a {
+    display: block;
+    padding: 8px 0;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  .writing-list a:last-child { border-bottom: none; }
+  .writing-list a:hover { color: var(--accent); }
+  .writing-list .meta {
+    color: var(--muted);
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 8px;
   }
   footer {
-    margin-top: 80px;
-    padding-top: 24px;
+    margin-top: 64px;
+    padding-top: 18px;
     border-top: 1px solid var(--rule);
     color: var(--muted);
     font-size: 13px;
+    font-style: italic;
   }
   a:focus-visible {
     outline: 2px solid var(--accent);
@@ -112,44 +171,68 @@
   }
   @media (max-width: 600px) {
     .wrap { padding: 56px 22px 64px; }
-    h1 { font-size: 36px; }
+    .header { gap: 16px; margin-bottom: 28px; }
+    .avatar { width: 72px; height: 72px; }
+    .header-text h1 { font-size: 30px; }
     ul li { flex-direction: column; gap: 4px; }
+    ul li .name { min-width: 0; }
+    .cta { padding: 14px 16px; }
   }
 </style>
 </head>
 <body>
 <main class="wrap">
 
-  <h1>Hamed Rabah</h1>
-  <p class="tagline">Startup partnerships at Microsoft. Angel investor. San Francisco.</p>
+  <div class="header">
+    <img class="avatar" src="me.jpg" alt="Hamed Rabah">
+    <div class="header-text">
+      <h1>Hamed Rabah</h1>
+      <p class="tagline">Early-stage AI partnerships at Microsoft. Angel investor. San Francisco.</p>
+    </div>
+  </div>
 
-  <p>I lead startup partnerships at Microsoft, where I work day to day with AI and infrastructure founders building on Azure and the Microsoft AI stack. Most of my time goes into the earliest, hardest stretch: the moment a small team is trying to figure out whether their first real customers, their first GPU allocations, and their first model picks are the right ones.</p>
+  <p>I back technical founders building the picks and shovels for applied AI: dev tools, infrastructure, and the connective tissue that makes the rest of the stack work. Most of my conviction comes from time spent with the founders before the round is obvious.</p>
 
-  <p>I also angel invest in a handful of founders each year where I have unusual conviction. Before Microsoft, I was the first hire at <a href="https://www.abelpolice.com/">Abel Police</a>, a YC company backed by Garry Tan and AI Grant.</p>
+  <p>At Microsoft I run early-stage AI partnerships, working day to day with seed and Series A founders building on Azure and the Microsoft AI stack. Before that I was the first hire at <a href="https://www.abelpolice.com/">Abel</a>, a Y Combinator company backed by Garry Tan and AI Grant.</p>
 
-  <p>Reachable for AI and infra founders raising pre-seed or seed in San Francisco.</p>
+  <p>I have been angel investing since 2019, often alongside Y Combinator, AI Grant, and other San Francisco operators and funds.</p>
 
-  <div class="section-label">Selected investments</div>
+  <div class="cta">
+    Reachable for AI and infrastructure founders raising pre-seed or seed in San Francisco. <a href="mailto:med318@gmail.com">med318@gmail.com</a>.
+  </div>
+
+  <div class="section-label">Active investments</div>
+  <p class="section-note">Selected. Several positions through Y Combinator and FundersClub vehicles.</p>
   <ul>
-    <li><span class="name"><a href="https://www.colabsoftware.com/">CoLab</a></span><span class="desc">Engineering collaboration for hardware teams.</span></li>
-    <li><span class="name"><a href="https://www.treble.ai/">Treble.ai</a></span><span class="desc">WhatsApp customer messaging at scale.</span></li>
-    <li><span class="name"><a href="https://embrace.io/">Embrace</a></span><span class="desc">Mobile observability for engineering teams.</span></li>
-    <li><span class="name"><a href="https://zeroheight.com/">zeroheight</a></span><span class="desc">Design systems documentation.</span></li>
-    <li><span class="name">Obie</span><span class="desc">Knowledge automation in Slack. Exited.</span></li>
-    <li><span class="name">PopSQL</span><span class="desc">Collaborative SQL editor. Acquired by Timescale.</span></li>
-    <li><span class="name">Together</span><span class="desc">YC S19. Exited.</span></li>
+    <li><span class="name"><a href="https://www.colabsoftware.com/">CoLab</a></span><span class="desc">Engineering collaboration for hardware teams. YC W18.</span></li>
+    <li><span class="name"><a href="https://www.treble.ai/">Treble.ai</a></span><span class="desc">WhatsApp customer messaging at scale. YC S19.</span></li>
+    <li><span class="name"><a href="https://embrace.io/">Embrace</a></span><span class="desc">Mobile observability for engineering teams. YC W18.</span></li>
+    <li><span class="name"><a href="https://zeroheight.com/">zeroheight</a></span><span class="desc">Design systems documentation. YC W18.</span></li>
   </ul>
+
+  <div class="section-label">Exits</div>
+  <ul>
+    <li><span class="name">PopSQL</span><span class="desc">Collaborative SQL editor. Acquired by Timescale.</span></li>
+    <li><span class="name">Obie</span><span class="desc">Knowledge automation in Slack. Acquired.</span></li>
+    <li><span class="name">Together</span><span class="desc">Decentralized cloud for AI. YC S19.</span></li>
+  </ul>
+
+  <div class="section-label">Notes</div>
+  <p class="section-note">Mostly on X. Threads on AI infra, the Microsoft startup ecosystem, and what I am seeing in seed-stage AI.</p>
+  <div class="writing-list">
+    <a href="https://x.com/hamedinSF">Follow on X <span class="meta">@hamedinSF</span></a>
+  </div>
 
   <div class="section-label">Elsewhere</div>
   <div class="links">
-    <a href="mailto:hamedrabah@microsoft.com">Email</a>
+    <a href="mailto:med318@gmail.com">Email</a>
     <a href="https://www.linkedin.com/in/hamedrabah/">LinkedIn</a>
-    <a href="https://x.com/hamedrabah">X</a>
+    <a href="https://x.com/hamedinSF">X</a>
     <a href="https://github.com/hamedrabah">GitHub</a>
   </div>
 
   <footer>
-    Personal site. Views are my own and do not represent Microsoft. Investment activity is disclosed and unrelated to my role.
+    Personal site. Opinions my own.
   </footer>
 
 </main>
