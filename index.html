@@ -1,213 +1,105 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Hamed Rabah</title>
+	<meta name="description" content="Hamed Rabah builds startup partnerships at Microsoft, helping founders go from prototype to production on Azure." />
+	<meta property="og:title" content="Hamed Rabah" />
+	<meta property="og:description" content="Startup partnerships at Microsoft. Helping founders ship faster on Azure." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://hamedrabah.github.io/" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:wght@500;700&display=swap" rel="stylesheet" />
+	<style>
+		:root {
+			--bg: #0b0d12;
+			--panel: #11141b;
+			--text: #e8eaef;
+			--muted: #9aa3b2;
+			--accent: #7cc4ff;
+			--accent-2: #ffb27a;
+			--border: #1f2430;
+			--max: 880px;
+		}
+		* { box-sizing: border-box; }
+		html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+		a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(124, 196, 255, 0.25); transition: border-color 0.15s ease, color 0.15s ease; }
+		a:hover { color: #fff; border-bottom-color: var(--accent); }
+		.container { max-width: var(--max); margin: 0 auto; padding: 80px 28px 120px; }
+		header.hero { margin-bottom: 56px; }
+		.eyebrow { color: var(--accent-2); font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 18px; }
+		h1 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(36px, 6vw, 56px); line-height: 1.1; margin: 0 0 20px; letter-spacing: -0.02em; }
+		.lede { font-size: 19px; color: var(--muted); max-width: 640px; margin: 0; }
+		.lede strong { color: var(--text); font-weight: 500; }
+		section { margin-top: 56px; }
+		h2 { font-family: 'Fraunces', Georgia, serif; font-weight: 500; font-size: 22px; margin: 0 0 18px; color: var(--text); letter-spacing: -0.01em; }
+		p { margin: 0 0 16px; color: var(--muted); }
+		p.body-strong { color: var(--text); }
+		ul.work { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 14px; }
+		ul.work li { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; }
+		ul.work li .label { color: var(--accent-2); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+		ul.work li .title { color: var(--text); font-weight: 500; font-size: 16px; margin-bottom: 4px; }
+		ul.work li .desc { color: var(--muted); font-size: 15px; }
+		.contact-grid { display: flex; flex-wrap: wrap; gap: 10px 16px; padding: 0; list-style: none; margin: 0; }
+		.contact-grid li { font-size: 15px; }
+		footer { margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+		footer a { color: var(--muted); border-bottom-color: rgba(154, 163, 178, 0.25); }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="hero">
+			<div class="eyebrow">Hamed Rabah</div>
+			<h1>Helping startups build on Microsoft.</h1>
+			<p class="lede">I lead startup partnerships at <strong>Microsoft</strong>, working with founders to take AI and infrastructure ideas from prototype to production on Azure.</p>
+		</header>
 
-<html>
-	<head>
-		<title>Hamed Rabah</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<section>
+			<h2>What I do</h2>
+			<p>My day-to-day is spent embedded with early-stage and growth-stage companies in the Microsoft for Startups program. I help technical founders pick the right Azure architecture, unblock their teams on platform decisions, and connect them to the people inside Microsoft who can move things forward, whether that is capacity, credits, model access, or product feedback that actually lands with the right team.</p>
+			<p>The work spans frontier AI labs, vertical SaaS, devtools, and infrastructure. The common thread is shortening the distance between a founder having an idea and that idea running reliably in front of customers.</p>
+		</section>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+		<section>
+			<h2>Where I focus</h2>
+			<ul class="work">
+				<li>
+					<div class="label">Architecture</div>
+					<div class="title">Pegasus technical reviews</div>
+					<div class="desc">Deep dives with founding teams on AI workloads, data plane, scale, and migration off other clouds.</div>
+				</li>
+				<li>
+					<div class="label">Access</div>
+					<div class="title">Capacity, quota, and model unlocks</div>
+					<div class="desc">Working across Azure OpenAI, Foundry, and infrastructure teams to clear blockers fast.</div>
+				</li>
+				<li>
+					<div class="label">Feedback</div>
+					<div class="title">Product feedback into Microsoft</div>
+					<div class="desc">Turning real founder pain points into prioritized signal for the engineering teams that own the surface area.</div>
+				</li>
+				<li>
+					<div class="label">Enablement</div>
+					<div class="title">Technical content for founders</div>
+					<div class="desc">Writing and shipping practical guides on Microsoft Learn aimed at early-stage CTOs and engineers.</div>
+				</li>
+			</ul>
+		</section>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Hamed Rabah</span>
-								</a>
+		<section>
+			<h2>Get in touch</h2>
+			<p>If you are a founder building on Azure, or thinking about moving onto it, I am happy to talk.</p>
+			<ul class="contact-grid">
+				<li><a href="https://www.linkedin.com/in/hamedrabah/">LinkedIn</a></li>
+				<li><a href="https://github.com/hamedrabah">GitHub</a></li>
+			</ul>
+		</section>
 
-
-						</div>
-					</header>
-
-					<div id="main">
-						<div class="inner">
-							<header>
-									<h1> Product Manager</h1>
-								<h1> HCI at Cornell University </h1>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/pen.png" alt="" />
-									</span>
-										<a href="penpals/game.html">
-										<h2>Penguin Pals</h2>
-										<div class="content">
-											<p>Save the baby penguin!</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/economics.png" alt="" />
-									</span>
-									<a href="dataviz.html">
-										<h2>Are Free Countries Richer?</h2>
-										<div class="content">
-											<p>A data driven investigation into the wealth of nations</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/watches3.png" alt="" />
-									</span>
-									<a href="watch.html">
-										<h2>Microsoft Watch</h2>
-										<div class="content">
-											<p> A concept for an enteprise focused smartwatch!</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/xbox.jpg" alt="" />
-									</span>
-									<a href="esports.html">
-										<h2>Xbox Esports</h2>
-										<div class="content">
-											<p>The solution I am proposing is a hub on both PC and Xbox for all things Esports — streaming tournaments, building a team, viewing live rankings, and engaging with the community.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/ven.jpg" alt="" />
-									</span>
-									<a href="venmo.html">
-										<h2>Venmo</h2>
-										<div class="content">
-											<p>Interviewing users on their Venmo experince, culiminating
-											in a UI redesign.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/movie.jpg" alt="" />
-									</span>
-									<a href="d3.html">
-										<h2>Data Driven Web Applications</h2>
-										<div class="content">
-											<p>Visualizing movie data in D3.js</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/animal.jpg" alt="" />
-									</span>
-									<a href="animals.html">
-										<h2>The SQL</h2>
-										<div class="content">
-											<p>Creating a dynamic webpage with a PHP server, login functionality, and a SQL database in the backend.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/social.jpg" alt="" />
-									</span>
-									<a href="design4good.html">
-										<h2>Designing for Social Impact</h2>
-										<div class="content">
-											<p>NaTakallam connects multilingual refugees with language learners through a video conferencing.</p>
-										</div>
-									</a>
-								</article>
-								
-								<article class="style2">
-									<span class="image">
-										<img src="images/bulb.jpg" alt="" />
-									</span>
-									<a href="vc.html">
-										<h2>Lessons from the Best Startups</h2>
-										<div class="content">
-											<p>What working in VC taught me about how the best startups operate.</p>
-										</div>
-									</a>
-								</article>
-
-								<!-- <article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-							</section>
-						</div>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-										<section>
-											<h2>Follow</h2>
-											<ul class="icons">
-												<li><a href="https://twitter.com/hamedArabah" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="https://www.linkedin.com/in/hamedrabah/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-												<li><a href="https://github.com/hamedrabah" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.instagram.com/classichamoudi/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-												<li> <a href="mailto:hr277@cornell.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-											</ul>
-										</section>
-										<ul class="copyright">
-											<li>&copy; Hamed Rabah</li>
-										</ul>
-									</div>
-								</footer>
-						</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+		<footer>
+			Views here are my own and do not represent Microsoft.
+		</footer>
+	</div>
+</body>
 </html>
