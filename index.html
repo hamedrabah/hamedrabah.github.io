@@ -70,6 +70,19 @@
     margin: 0;
     font-style: italic;
   }
+  .meta {
+    margin: 10px 0 0;
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-style: normal;
+  }
+  .meta span + span::before {
+    content: "·";
+    margin: 0 8px;
+    color: var(--rule);
+  }
   p { margin: 0 0 22px; }
   p a, .links a, ul a {
     color: var(--ink);
@@ -187,7 +200,8 @@
     <img class="avatar" src="me.jpg" alt="Hamed Rabah">
     <div class="header-text">
       <h1>Hamed Rabah</h1>
-      <p class="tagline">Early-stage AI partnerships at Microsoft. Angel investor. Cornell CS. San Francisco.</p>
+      <p class="tagline">Early-stage AI partnerships at Microsoft. Angel investor.</p>
+      <p class="meta"><span>San Francisco</span><span>Cornell CS</span></p>
     </div>
   </div>
 
