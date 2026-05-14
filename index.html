@@ -134,6 +134,22 @@
     font-size: 17px;
     font-style: italic;
   }
+  ul li .meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  ul li .meta .desc { font-style: normal; }
+  ul li .credit {
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  ul li .credit a { border-bottom: none; }
+  ul li .credit a:hover { border-bottom: 1px solid var(--ink); }
+  ul li .credit .year { color: var(--muted); font-weight: 400; margin-left: 8px; }
   .links {
     display: flex;
     flex-wrap: wrap;
@@ -206,9 +222,9 @@
 
   <div class="section-label">Exits</div>
   <ul>
-    <li><span class="name"><a href="https://popsql.com/">PopSQL</a></span><span class="desc">Collaborative SQL editor. Acquired by <a href="https://www.timescale.com/">Timescale</a>.</span></li>
-    <li><span class="name"><a href="https://www.obieinsurance.com/">Obie</a></span><span class="desc">Investment property insurance platform. Acquired by <a href="https://baldwin.com/">The Baldwin Insurance Group</a>.</span></li>
-    <li><span class="name"><a href="https://www.togetherplatform.com/">Together</a></span><span class="desc">Mentorship and employee development. YC S19. Acquired by <a href="https://www.absorblms.com/">Absorb</a>.</span></li>
+    <li><span class="name"><a href="https://popsql.com/">PopSQL</a></span><span class="meta"><span class="desc">Collaborative SQL editor</span><span class="credit"><a href="https://www.timescale.com/">Timescale</a><span class="year">2024</span></span></span></li>
+    <li><span class="name"><a href="https://www.obieinsurance.com/">Obie</a></span><span class="meta"><span class="desc">Investment property insurance</span><span class="credit"><a href="https://baldwin.com/">Baldwin Insurance Group</a><span class="year">2026</span></span></span></li>
+    <li><span class="name"><a href="https://www.togetherplatform.com/">Together</a></span><span class="meta"><span class="desc">Mentorship and employee development</span><span class="credit"><a href="https://www.absorblms.com/">Absorb</a><span class="year">2025</span></span></span></li>
   </ul>
 
 
