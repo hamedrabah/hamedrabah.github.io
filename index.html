@@ -26,6 +26,16 @@
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
+  .skip-link {
+    position: absolute;
+    left: 16px;
+    top: -48px;
+    z-index: 10;
+    padding: 8px 12px;
+    background: var(--ink);
+    color: var(--bg);
+  }
+  .skip-link:focus { top: 16px; }
   body {
     background: var(--bg);
     color: var(--ink);
@@ -184,7 +194,8 @@
 </style>
 </head>
 <body>
-<main class="wrap">
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<main class="wrap" id="main-content">
 
   <div class="header">
     <img class="avatar" src="me.jpg" alt="Hamed Rabah">
