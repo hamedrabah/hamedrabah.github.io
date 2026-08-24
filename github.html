@@ -18,6 +18,8 @@
 <style>
   :root { --bg:#faf8f5; --ink:#1a1816; --muted:#6b6660; --accent:#c9582a; --rule:#e8e2d8; }
   * { box-sizing: border-box; }
+  .skip-link { position:absolute; left:16px; top:-48px; z-index:10; padding:8px 12px; background:var(--ink); color:var(--bg); }
+  .skip-link:focus { top:16px; }
   body { margin:0; background:var(--bg); color:var(--ink); font-family:'Newsreader',Georgia,serif; font-size:18px; line-height:1.5; -webkit-font-smoothing:antialiased; }
   main { max-width:720px; margin:0 auto; padding:72px 24px; }
   a { color:var(--ink); text-decoration-color:#b8b0a4; text-underline-offset:3px; }
@@ -42,7 +44,8 @@
 </style>
 </head>
 <body>
-<main>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<main id="main-content">
   <a class="back" href="index.html">← Hamed Rabah</a>
   <h1>GitHub activity</h1>
   <p class="intro">A live view of my public work on GitHub. The page reads public profile and repository data directly from the GitHub REST API.</p>
