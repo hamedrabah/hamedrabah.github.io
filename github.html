@@ -103,7 +103,7 @@
   loadGitHubActivity().catch(() => {
     const repoList = document.getElementById('repos');
     repoList.setAttribute('aria-busy', 'false');
-    repoList.textContent = 'GitHub activity is temporarily unavailable. View the profile directly at github.com/hamedrabah.';
+    repoList.innerHTML = 'GitHub activity is temporarily unavailable. <a href="https://github.com/hamedrabah">View the profile directly on GitHub</a>.';
   });
 </script>
 </body>
