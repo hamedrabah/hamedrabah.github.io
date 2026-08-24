@@ -38,6 +38,7 @@
   .repo a { font-weight:500; }
   .repo time { color:var(--muted); font-size:14px; white-space:nowrap; }
   .repo p { margin:5px 0 0; color:var(--muted); font-style:italic; }
+  .repo-meta { margin-top:7px; color:var(--muted); font-size:13px; }
   .status { color:var(--muted); font-style:italic; }
   footer { margin-top:52px; padding-top:16px; border-top:1px solid var(--rule); color:var(--muted); font-size:13px; }
   @media (max-width:560px) { main{padding:48px 20px;} h1{font-size:34px;} .stats{grid-template-columns:1fr;} .repo-header{display:block;} }
@@ -97,6 +98,7 @@
           <time datetime="${repo.updated_at}">${formatDate(repo.updated_at)}</time>
         </div>
         <p>${escapeHtml(repo.description || 'Public repository on GitHub.')}</p>
+        ${repo.language ? `<div class="repo-meta">${escapeHtml(repo.language)}</div>` : ''}
       </article>`).join('');
   }
 
