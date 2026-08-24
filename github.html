@@ -59,7 +59,7 @@
   <section>
     <h2>Recently updated</h2>
     <noscript><p class="status">JavaScript is required for live repository data. You can still <a href="https://github.com/hamedrabah?tab=repositories">browse the repositories on GitHub</a>.</p></noscript>
-    <div id="repos" class="status" aria-live="polite">Loading public repositories…</div>
+    <div id="repos" class="status" aria-live="polite" aria-busy="true">Loading public repositories…</div>
   </section>
 
   <footer>Powered by the <a href="https://docs.github.com/en/rest">GitHub REST API</a>. Only public data is requested.</footer>
@@ -87,8 +87,10 @@
     document.getElementById('star-count').textContent = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0).toLocaleString();
 
     const recent = repos.slice(0, 6);
-    document.getElementById('repos').className = '';
-    document.getElementById('repos').innerHTML = recent.map(repo => `
+    const repoList = document.getElementById('repos');
+    repoList.className = '';
+    repoList.setAttribute('aria-busy', 'false');
+    repoList.innerHTML = recent.map(repo => `
       <article class="repo">
         <div class="repo-header">
           <a href="${repo.html_url}">${escapeHtml(repo.name)}</a>
@@ -99,7 +101,9 @@
   }
 
   loadGitHubActivity().catch(() => {
-    document.getElementById('repos').textContent = 'GitHub activity is temporarily unavailable. View the profile directly at github.com/hamedrabah.';
+    const repoList = document.getElementById('repos');
+    repoList.setAttribute('aria-busy', 'false');
+    repoList.textContent = 'GitHub activity is temporarily unavailable. View the profile directly at github.com/hamedrabah.';
   });
 </script>
 </body>
